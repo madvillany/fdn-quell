@@ -1,153 +1,224 @@
-<div class="row">
-  <div class="large-12 columns">
-    <h1>Welcome to Foundation for Sites</h1>
-  </div>
-</div> 
 
-<div class="row">
-  <div class="large-12 columns">
-    <div class="callout">
-      <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-      <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-      <p>Once you've exhausted the fun in this document, you should check out:</p>
-      <div class="row">
-        <div class="large-4 medium-4 columns">
-          <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-        </div>
-        <div class="large-4 medium-4 columns">
-          <p><a href="http://zurb.com/university/code-skills">Foundation Code Skills</a><br />These online courses offer you a chance to better understand how Foundation works and how you can master it to create awesome projects.</p>
-        </div>
-        <div class="large-4 medium-4 columns">
-          <p><a href="http://foundation.zurb.com/forum">Foundation Forum</a><br />Join the Foundation community to ask a question or show off your knowlege.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="large-4 medium-4 medium-push-2 columns">
-          <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-        </div>
-        <div class="large-4 medium-4 medium-pull-2 columns">
-          <p><a href="https://twitter.com/ZURBfoundation">@zurbfoundation</a><br />Ping us on Twitter if you have questions. When you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-        </div>        
-      </div>
-    </div>
+<!-- Sticky Nav- Rereference Foundation 6 docs -->
+<div data-sticky-container>
+  <div class="title-bar" data-sticky data-options="marginTop:0;" style="width:100%">
+    <div class="title-bar-left"><!-- Content --></div>
+    <div class="title-bar-right"><ul class="menu">
+      <li><a href="#">Item One</a></li>
+      <li><a href="#">Item Two</a></li>
+      <li><a href="#">Item Three</a></li>
+    </ul>
   </div>
 </div>
+</div>
 
-<div class="row">
-  <div class="large-8 medium-8 columns">
-    <h5>Here&rsquo;s your basic grid:</h5>
-    <!-- Grid Example -->
 
-    <div class="row">
-      <div class="large-12 columns">
-        <div class="primary callout">
-          <p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.callout element so you can see where the columns are - it's not required at all for the grid.</p>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="large-6 medium-6 columns">
-        <div class="primary callout">
-          <p>Six columns</p>
-        </div>
-      </div>
-      <div class="large-6 medium-6 columns">
-        <div class="primary callout">
-          <p>Six columns</p>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="large-4 medium-4 small-4 columns">
-        <div class="primary callout">
-          <p>Four columns</p>
-        </div>
-      </div>
-      <div class="large-4 medium-4 small-4 columns">
-        <div class="primary callout">
-          <p>Four columns</p>
-        </div>
-      </div>
-      <div class="large-4 medium-4 small-4 columns">
-        <div class="primary callout">
-          <p>Four columns</p>
-        </div>
-      </div>
-    </div>
-    
-    <hr />
-            
-    <h5>We bet you&rsquo;ll need a form somewhere:</h5>
-    <form>
+<!-- Background Video -->
+
+<div class="mobilebkg" id="homebg"></div>
+
+<video autoplay  poster="assets/img/video.mp4" id="bgvid" loop>
+  <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+
+  <source src="assets/img/video.mp4" type="video/mp4">
+  </video>
+
+
+  <!-- Front Page before chevron (upside down arrow) -->
+
+  <div class="row">
+    <div class="small-2 small-centered columns">
+      <img src="assets/img/logo4.png">
+      <p class="text-center"> crap under logo </P>
+    </dIv>
+  </div>
+  <div class="headercontainer">
+    <div class="intro">
       <div class="row">
-        <div class="large-12 columns">
-          <label>Input Label</label>
-          <input type="text" placeholder="large-12.columns" />
-        </div>
-      </div>
-      <div class="row">
-        <div class="large-4 medium-4 columns">
-          <label>Input Label</label>
-          <input type="text" placeholder="large-4.columns" />
-        </div>
-        <div class="large-4 medium-4 columns">
-          <label>Input Label</label>
-          <input type="text" placeholder="large-4.columns" />
-        </div>
-        <div class="large-4 medium-4 columns">
-          <div class="row collapse">
-            <label>Input Label</label>
-            <div class="small-9 columns">
-              <input type="text" placeholder="small-9.columns" />
-            </div>
-            <div class="small-3 columns">
-              <span class="postfix">.com</span>
-            </div>
+        <div class="small-3 small-centered text-center columns">
+          <h1>TOGETHER WE CAN</h1>
+          <p> THE MENTAL HEALTH CHALLENGE IS ALL 
+            AROUND US AND THE EFFECTS ARE REAL </p>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="large-12 columns">
-          <label>Select Box</label>
-          <select>
-            <option value="husker">Husker</option>
-            <option value="starbuck">Starbuck</option>
-            <option value="hotdog">Hot Dog</option>
-            <option value="apollo">Apollo</option>
-          </select>
-        </div>
-      </div>
-      <div class="row">
-        <div class="large-6 medium-6 columns">
-          <label>Choose Your Favorite</label>
-          <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-          <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-        </div>
-        <div class="large-6 medium-6 columns">
-          <label>Check these out</label>
-          <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-          <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="large-12 columns">
-          <label>Textarea Label</label>
-          <textarea placeholder="small-12.columns"></textarea>
-        </div>
-      </div>
-    </form>
-  </div>     
-
-  <div class="large-4 medium-4 columns">
-    <h5>Try one of these buttons:</h5>
-    <p><a href="#" class="small button">Simple Button</a><br/>          
-    <a href="#" class="medium success button">Success Btn</a><br/>
-    <a href="#" class="medium alert button">Alert Btn</a><br/>
-    <a href="#" class="medium secondary button">Secondary Btn</a></p>           
-    <div class="callout">
-      <h5>So many components, girl!</h5>
-      <p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
-      <a href="http://foundation.zurb.com/docs/" class="small button">Go to Foundation Docs</a>          
     </div>
-  </div>
-</div>
+
+    <!-- One in Five Adults under Chevron-->
+
+    <div class="transparentbg">
+      <div class="row">
+        <div class="small-6 small-centered columns">
+          <h2> ONE IN FIVE ADULTS
+            EXPERIENCE A MENTAL HEALTH ILLNESS IN A GIVEN YEAR</h2>
+            <hr>
+            <p class="blockquote"> “I’M CHERISHING EVERY SINGLE DAY.
+              EVERY LITTLE THING IS WORTH CELEBRATING.
+              AND NOW I SEE THAT I HAVE SOMETHING TO LOSE” </p>
+              <p class="stat">
+                - DENNIS CHARPENTIER
+                21, LIVING WITH A MENTAL HEALTH ILLNESS </p>
+                <p class="read">
+                  READ THE STORIES </p>
+
+                  <a href="about.html" class="button">Learn More</a>
+
+                </div>
+              </div>
+            </div>
+
+
+            <!-- Our Mission  to Clairty section -->
+            <div class="misson">
+              <div class="row">
+                <div class="small-12 small-centered columns">
+
+                  <h3> OUR MISSION TO CLARITY </h3>
+                  <p> THE QUELL FOUNDATION WORKS TO EDUCATE COMMUNITIES ABOUT ISSUES AND CONCERNS SURROUNDING MENTAL HEALTH, PROMOTING OPEN, JUDGEMENT-FREE DIALOGUE </p>
+
+
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+            <!-- Training, Access, Awareness Section -->
+            <div class="heads">
+
+              <div class="row">
+                <div class="small-4 large-4 columns">
+                  <img src="assets/img/head1.png">
+                  <h2 class ="headtitle"> TRAINING </h2>
+                  <p>Donations to The Training Fund prepare first responders to recognize & respond to signs of mental distress within their ranks, teach law enforcement agencies advanced mental health crisis intervention skills, and supports service dog training throughout the country. </p>
+                </div>
+
+
+                <div class="small-4   large-4 columns">
+                  <img src="assets/img/head2.png">
+                  <h2 class="headtitle"> ACCESS </h2>
+
+                  <p>Donations to Project Access will increase the talent pipeline through scholarship awards to students entering the mental healthcare profession, expand delivery of needed mental health care services, and promote reformation to extend the scope of clinical behavioral health professionals services.</p>
+
+
+                </div>
+
+
+                <div class=" small-4 large-4 columns">
+
+                  <img src="assets/img/head3.png">
+                  <h2 class="headtitle"> Awareness </h2>
+                  <p>Donations to The Awareness Fund will educate communities and individuals in care disparities. The Funds aim is to reduce the number of suicides, drug overdoses, and incarceration of people with a treatable mental illness. </p>
+                </div>
+              </div>
+            </div>
+
+
+
+
+            <!-- Scholarship section -->
+            <div class="front-scholar">
+             <div class="small-3 small-centered columns">
+              <img src="/assets/img/mainpage/scholar_head.png" class="float-center">
+
+              <h2> SCHOLARSHIPS </h2>
+              <p class="scholar-quote"> WE ARE OFFERING FOUR SCHOLARSHIPS TO DEMONSTRATE OUR
+                COMMITMENT TO, AND APPRECIATION FOR, ADVANCING EDUCATION
+                FOR THOSE BATTLING MENTAL HEALTH CONDITIONS, AND/OR
+                DEDICATED TO A CAREER IN THE MENTAL HEALTH PROFESSION </p>
+
+                  <a class="large button" href="#">Learn More</a>
+              </div>
+
+
+
+
+
+              <!-- Take Action Section -->
+              <div class="take-action">
+                <div class="row">
+
+                  <div class="small-12 text-center columns">
+                   <h2> TAKE ACTION </h2>
+
+                   <p class="actionquote"> TOGETHER WE CAN FIND A DEFINITIVE SOLUTION TOWARD MAKING A DIFFERENCE IN PEOPLE'S LIVES </p>
+                 </div>
+               </div>
+             </div>
+
+             <!-- Give Events Doante Boxes-->
+
+
+    <div class="help">
+        <div class="row">
+           <div class="helpbg">
+              <div class="small-4  text-center large-4 columns helpbg">
+                  <h2> GIVE </h2>
+                  
+                  <p> We operate with the generous contributions of people and organizations around the country </p>
+                    <a class="large button" href="#">Donate</a> 
+     </div>
+       </div>
+                <div class="small-4  text-center large-4 columns helpbg">
+                  <h2> EVENTS </h2>
+
+                  <p> We organize, sponsor, and participate in events all over the country to help bring awareness to mental health issues </p> 
+                  <a class="large button" href="#">Donate</a>
+                    <a class="large button" href="#">Donate</a>
+                      <a class="large button" href="#">Donate</a>
+                </div>
+               <div class="small-4  text-center large-4 columns helpbg">
+
+
+                  <h2 class="donate"> DONATE </h2>
+                  <p>Help us get the word out by sharing as often as you can across all your social networks </p>
+
+                    <a class="large button" href="#">Donate</a>
+
+                </div>
+
+
+
+
+              </div>
+            </div>  
+          </div>
+
+
+             <!-- FOOTER-->
+
+             <div class="footer">
+             <div class="row">
+             <div class="small-12 text-center columns">
+
+             <p> THE QUELL FOUNDATION </p>
+             <p> P.O BOX 19204 </p>
+             <p> N. FALMOUTH, MA </p>
+
+
+
+
+
+            </div>
+             </div>
+             </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
